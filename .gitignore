@@ -1,0 +1,17 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+# Secrets / env
+.env
+*.pem
+# Spec Kit / LeanCTX scaffolding (kept out of the deliverable)
+.specify/
+.leanctx/
+# OS / editor
+.DS_Store
+.vscode/
+.claude/
+.specify/
